@@ -1,0 +1,14 @@
+body{
+    background-color:brown;
+    background-image: url("./1.jpg");
+    
+   }
+   
+   /* Extenal CSS */
+h3{
+    color: aqua;
+    background-color: blueviolet;
+    padding: 20px;
+    width: 200px;
+
+}

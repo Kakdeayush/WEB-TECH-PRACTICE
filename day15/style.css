@@ -1,0 +1,32 @@
+#name{
+    background-color: red;
+    color: black;
+}
+
+.bio{
+    background-color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    padding: 50px;
+    
+}
+
+h6{
+    background-color: blueviolet;
+    color: white;
+    padding: 90px;
+    font-size: 35px;
+}
+
+img,h1,h4{
+    background-color: cadetblue;
+    border-radius: 15%;
+
+}
+
+*{
+    background-color: orange;
+    
+}
+
+
