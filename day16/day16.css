@@ -1,0 +1,27 @@
+/* 1.Atttribute selector */
+a[href]{
+    background-color: yellow;
+}
+
+input[type]{
+    border: solid green;
+}
+
+/* 2.Attribute with value */
+
+a[href="../day10/audio-video-tag.html"]{
+    text-decoration: none;
+}
+
+/* 3.Attribute with value starat with  */
+
+img[alt^=Actor]{
+    border-radius: 50%;
+}
+
+/* 4/Attribute end with  */
+
+img[alt$=Actor]{
+    border-radius: 50%;
+}
+
