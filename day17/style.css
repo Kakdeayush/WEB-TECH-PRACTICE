@@ -1,0 +1,21 @@
+p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+p::first-line{
+    color: orange;
+}
+
+p::selection{
+    background-color: black;
+    color: white;
+}
+
+li::marker{
+    color: pink;
+}
+
+h1::before{
+    content: "😁";
+}
