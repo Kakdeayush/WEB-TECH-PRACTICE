@@ -1,0 +1,30 @@
+.parent{
+    position:relative;
+    top: 200px;
+    left: 200px;
+    transform: rotate(-45deg);
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: palevioletred;
+}
+
+.first{
+    background-color: palevioletred;
+    z-index: 1;
+}
+
+.second{
+    background-color: palevioletred;
+    left: 100px;
+    border-radius: 50%;
+}
+
+.third{
+    top: 100px;
+    border-radius: 50%;
+    background-color: palevioletred;
+}
