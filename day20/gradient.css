@@ -1,0 +1,11 @@
+.bg{
+    height: 300px;
+    width: 500px;
+    background-color: purple;
+    position: relative;
+    top: 100px; left: 100px;
+    border: solid;
+    background: linear-gradient(135deg,orange,white,green);
+    background: radial-gradient(red,gold,black);
+    background: conic-gradient(black,white,black,white,black,white,black,white,black,white,black,white);
+}
