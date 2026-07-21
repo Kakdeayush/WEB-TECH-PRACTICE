@@ -6,7 +6,7 @@
 .main{
     height: 100vh;
     width: 100%;
-    background-color: yellow;
+    background-color: rgb(22, 22, 1);
     position: relative;
 }
 
@@ -24,14 +24,61 @@
 .loginPage{
     height: 85%;
     width: 85%;
-    background-color: aqua;
+    background-color: rgb(181, 108, 157);
     padding: 15px;
     display: flex;
+    border-radius: 25px;
+    box-shadow: 0px 0px 40px 3px gainsboro;
 }
 
 .loginPage .card{
     height: 100%;
     width: 50%;
     background-color: red;
-    border: solid;
+    border-radius: 20px;
+}
+
+.loginPage .second{
+    background-image: url("https://images.timesnownews.com/photo/msid-99488891/99488891.jpg");
+    background-size: cover;
+}
+
+.loginPage .first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginPage .first h1{
+    margin-top: 50px;
+}
+
+.loginPage .first p{
+    margin-left:60px;
+    margin-top: 50px;
+}
+
+.loginPage .first .formBody{
+    width: 60%;
+}
+
+.first .formBody input{
+    height: 45px;
+    width: 93%;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.first .formBody a{
+    text-align: right;
+    display: block;
+    font-size: 12px;
+    margin-top: 7px;
+    text-decoration: none;
+}
+
+.first .formBody button{
+    height: 45px;
+    width: 100%;
+    background-color: #a25353;
 }
