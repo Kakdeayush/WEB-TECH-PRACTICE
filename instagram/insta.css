@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 300px;
+    background-color: aqua;
+    border: solid;
+    position: relative;
+    left: 35%;
+}
+.container .topBox{
+    height: 20px;
+    background-color: yellow;
+}
+.container .header{
+    height: 30px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .stories{
+    height: 80px;
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.container .stories .single{
+    height: 50px;
+    width: 50px;
+    outline: 2px solid crimson;
+    border-radius: 50%;
+    outline-offset: 2px;
+    margin-left: 15px;
+
+}
+.stories .single img{
+    height: inherit;
+    width: inherit;
+    border-radius: 50%;
+}
+.stories .single p{
+    font-size: 11px;
+    text-align: center;
+}
+
+.container .user{
+    height: 35px;
+    background-color: red;
+}
+.container .post{
+    height: 350px;
+    width: inherit;
+    background-color: orange;
+}
+.container .post img{
+    height: inherit;
+    width: inherit;
+}
+
+
+.container .icons{
+    height: 30px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .icons .first{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container .icons img{
+    height: 22px;
+} 
