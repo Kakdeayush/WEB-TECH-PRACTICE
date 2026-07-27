@@ -17,7 +17,7 @@
 .img1{
     grid-column-start: 1;
     grid-column-end: 4;
-    background-image: url(./photos/me1.jpg);
+    background-image: url(./photos/onepieacebanner2.jpg);
     background-size:  100% 100%;
     background-repeat: no-repeat;
     background-position: top center;
@@ -26,12 +26,20 @@
 .img2{
     grid-column-start: 1;
     grid-column-end: 3;
+    background-image: url(./photos/onepieacebanner1.jpg);
+      background-repeat: no-repeat;
+    background-position: top center;
+    background-size:  100% 100%;
 }
 
 .img3{
     grid-column-start: 3;
     grid-row-start: 2;
     grid-row-end: 4;
+    background-image: url(./photos/luffy.webp);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size:  100% 100%;
 }
 
 .img6{

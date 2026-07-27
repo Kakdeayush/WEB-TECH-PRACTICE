@@ -12,11 +12,11 @@
 }
 .container .topBox{
     height: 20px;
-    background-color: yellow;
+    background-color: white;
 }
 .container .header{
     height: 30px;
-    background-color: orange;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,7 +24,7 @@
 
 .container .stories{
     height: 80px;
-    background-color: chartreuse;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -34,7 +34,7 @@
 .container .stories .single{
     height: 50px;
     width: 50px;
-    outline: 2px solid crimson;
+    outline: 2px solid rgb(32, 211, 83);
     border-radius: 50%;
     outline-offset: 2px;
     margin-left: 15px;
@@ -52,7 +52,7 @@
 
 .container .user{
     height: 35px;
-    background-color: red;
+    background-color: white;
 }
 .container .post{
     height: 350px;
@@ -67,7 +67,7 @@
 
 .container .icons{
     height: 30px;
-    background-color: tomato;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
