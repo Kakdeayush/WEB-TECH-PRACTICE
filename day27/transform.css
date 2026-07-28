@@ -1,0 +1,23 @@
+.task{
+    height: 100vh;
+    background-color: aqua;
+    position: relative;
+
+}
+
+.task img{
+    position: absolute;
+    top: 250px;left: 00px;
+}
+
+.task img:last-child:hover{
+    transform: translateY(-500px)
+    rotateX(1800deg);
+    transition: 2s;
+}
+
+.task img:first-child{
+    height: 800px;
+    position: absolute;
+    top:10px
+}

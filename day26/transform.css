@@ -13,5 +13,10 @@
     transform: rotate(1800deg);
     transform: rotateX(160deg);
     transform: rotateY(-360deg);
-    transition: 0.2s;
+
+    transform: translate(200px);
+    transform: translateY(200px);
+    transform: skew(360deg);
+    transition: 5s;
+
 }
